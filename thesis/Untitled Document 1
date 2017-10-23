@@ -1,0 +1,88 @@
+
+##jpeg conversion
+pdfimages -j /home/lori/Documents/SampleWithImages.pdf /home/lori/Documents/ExtractedImages/image
+
+
+##2 stands for page number to convert image
+pdfimages -f 2 -j /home/lori/Documents/SampleWithImages.pdf /home/lori/Documents/ExtractedImages/image
+
+Normally, all images are written as PBM (for monochrome images) or PPM for
+     non-monochrome images) files. With this option,  images in DCT format are
+     saved as JPEG files. All non-DCT images are saved in PBM/PPM format as usual.
+
+
+
+another library is below
+
+ pdftohtml    /home/fatemeh/Documents/pdfs    -
+
+
+
+build a dataset 
+pdfs in particular domains
+
+script to mine all the images in the pdf's
+
+change them to gray scales 
+
+build a dataset  
+
+
+
+Thesis presentation 
+
+Classification of Visualizations (no longer available) in Scientific Papers
+ Scientivic papers use Information visualisations to convery Research results. Such visualisations are for instance scatter plots or line Charts. 
+This Thesis should answer the question which visualisation are used in which scientific Domains. To this end, an Approach for i) extracting visualisations and ii) classifying them has to be developed and evaluated.
+
+
+
+Such visualisations are for instance scatter plots or line Charts.
+1. 
+Research Questions
+--which visualisation are used in which scientific Domains
+
+---Approach for i) extracting visualisations
+
+--Approach for classifying them has to be developed and evaluated
+
+
+
+State-of-the-Art
+
+
+Project plan for realising the thesis (including plans for used data sets and possible experiments)
+
+---dataset has to built my researcher by extracting these visualisations from various pdfs in various domains
+
+
+Scientific results are communicated visually in the literature through diagrams, visualizations, and photographs. These information-dense objects have been largely ignored in bibliometrics and scientometrics studies when compared to citations and text. In this project, we use techniques from computer vision and machine learning to classify more than 8 million figures from PubMed into 5 figure types and study the resulting patterns of visual information as they relate to impact. We find that the distribution of figures and figure types in the literature has remained relatively constant over time, but can vary widely across field and topic. We find a significant correlation between scientific impact and the use of visual information, where higher impact papers tend to include more diagrams, and to a lesser extent more plots and photographs. To explore these results and other ways of extracting this visual information, we have built a visual browser to illustrate the concept and explore design alternatives for supporting viziometric analysis and organizing visual information. We use these results to articulate a new research agenda – viziometrics – to study the organization and presentation of visual information in the scientific literature.
+
+
+
+importance of visualisations
+
+This work reveals for the first time that graphics play an important role in the scientific process. 
+“We find a significant correlation between scientific impact and the use of visual information, 
+where higher impact papers tend to include more diagrams, and to a lesser extent more plots and photographs,” they say.
+
+
+
+But their most remarkable discovery is that the most successful papers tend to have more figures. 
+By plotting the number of diagrams in a paper against its impact, the team concludes that high impact ideas tend to be conveyed visually.
+
+Lee and co say there are two possible explanations for this: “That visual information improves the clarity of the paper, 
+leading to more citations, and higher impact, or that high impact papers naturally tend to include new, complex ideas that require visual explanation.”
+
+
+
+problems of old works
+
+There’s work ahead of course. Lee and co are well aware of PubMed Central’s bias toward the life sciences and biomedicine. 
+So an obvious next step is to include diagrams from the physical sciences. The Physics arXiv is an obvious resource to exploit.
+
+
+
+
+
+
